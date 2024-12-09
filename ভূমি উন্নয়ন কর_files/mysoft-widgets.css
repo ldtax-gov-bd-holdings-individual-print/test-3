@@ -1,0 +1,98 @@
+/* Widgets CSS by Alauddin */
+#mysoft-sso-widget * {
+    box-sizing: border-box;
+}
+#mysoft-sso-widget {
+    position: relative;
+}
+#mysoft-sso-widget .sso-icon {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+}
+#mysoft-sso-widget .sso-icon img {
+    width: 32px;
+    height: 30px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    padding: 4px;
+}
+#mysoft-sso-widget .sso-icon img:hover {
+    background: #bbe6c0;
+}
+#mysoft-sso-widget .apps-icon {
+    display: none;
+    width: 272px;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px #ccc;
+    background: #fff;
+}
+#mysoft-sso-widget .apps-icon {
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+}
+#mysoft-sso-widget .apps-icon > ul {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0;
+    padding: 5px;
+}
+#mysoft-sso-widget .apps-icon > ul li {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+}
+#mysoft-sso-widget .apps-icon > ul > li > a {
+    border: 1px solid #fff;
+    _margin: 5px;
+    text-align: center;
+    display: inline-flex;
+    font-size: 11px;
+    font-family: verdana;
+    text-decoration: none;
+}
+#mysoft-sso-widget .apps-icon > ul > li > a:hover {
+    border: 1px solid #bfe0cb;
+    border-radius: 5px;
+    background: #e7f7ed;
+}
+#mysoft-sso-widget .apps-icon > ul > li > a .app-info {
+    margin: auto;
+    text-align: center;
+}
+#mysoft-sso-widget .apps-icon > ul > li > a .app-logo {
+    padding: 5px;
+    margin: auto;
+}
+#mysoft-sso-widget .apps-icon > ul > li > a .app-logo img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    overflow: hidden;
+}
+#mysoft-sso-widget .apps-icon > ul > li > a .app-logo img.my-photo {
+    border-radius: 50%;
+}
+#mysoft-sso-widget .apps-icon > ul > li > a .app-name {
+    color: #333333;
+    height: 20px;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+
+.password-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-toggle-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
